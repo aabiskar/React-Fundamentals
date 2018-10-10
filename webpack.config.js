@@ -8,6 +8,7 @@ module.exports = {
         filename: 'index_bundle.js',
         publicPath: '/'
     },
+    devtool: 'eval-source-map',
     module: {
         rules: [
             {test: /\.(js)$/,use: 'babel-loader'},
